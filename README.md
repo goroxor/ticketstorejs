@@ -9,7 +9,7 @@ Load the plugin and jQuery:
 
 ``` javascript
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/ticketshark.live/store/ticketstore.js"></script>
+<script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/ticketshark.live/store/ticketstore.min.js"></script>
 ```
 
 Note: we provide a link to the plugin hosted on our CDN in the example above. You're free to use this one or upload it on your own server and host it by yourself.
@@ -43,5 +43,3 @@ To get the iframe version of your store, simply add `?iframe=true` to the url wh
 First: check out example to see the plugin in action.
 
 If you have questions of require more information on the integration possibilities please send us an e-mail at support@ticketshark.be and we'll get back to you.
-
-
