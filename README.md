@@ -3,6 +3,25 @@ ___
 
 A simple and quick jQuery based plugin to integrate a [TicketShark](https://www.ticketshark.be "Visit TicketShark website") ticketing store in a website.
 
+## Full example
+
+
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TicketStore.js Example</title>
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://s3-eu-west-1.amazonaws.com/ticketshark.live/store/ticketstore.min.js"></script>
+</head>
+<body>
+    <div id="ts-store" data-store="https://www.ticketshark.be/store/demo" data-default-height="800"></div>
+</body>
+</html>
+```
+
+
 ## Installation
 
 Load the plugin and jQuery:
